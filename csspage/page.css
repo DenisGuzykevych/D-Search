@@ -1,0 +1,121 @@
+* {
+    font-family: 'Comfortaa', cursive;
+  }
+  .search-form {
+    text-align: center; 
+    margin-top: auto;
+}
+  
+.search-container {
+    display: inline-block; 
+    border: 2px solid black; 
+    border-radius: 20px; 
+    overflow: hidden;
+    height: 50px;
+    width: 700px;
+    line-height: 50px;
+    vertical-align: middle; 
+    padding-bottom: 10px;
+}
+  
+  .search-container input {
+    border: none;
+    padding: 10px;
+    outline: none;
+    height: 50px;
+    width: 640px;
+    font-size: 150%;
+}
+  
+  .search-container button {
+    border: none; 
+    background-color: transparent; 
+    padding: 5px; 
+    vertical-align: middle;
+}
+  
+  .navbar {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-man-buttons {
+    margin-right: 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: black; 
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; 
+}
+
+.content {
+    text-align: center; 
+}
+.wide-search-container{
+    margin: auto;
+    text-align: center;
+    margin-top:200px;
+}
+.wide-search-container form{
+    height: 200px;
+}
+.wide-search-container input{
+    border: 2px solid black;
+    border-radius: 10px;
+    height:40px;
+    margin-top: 10px;
+}
+.wide-search-container input[type="text"] {
+    width: 650px;
+}
+.button{
+    height: auto;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+.button:hover{
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+}
+.widesearch-field{
+    margin-top: 10px;
+}
+.search-input{
+    margin-top:10px;
+}
